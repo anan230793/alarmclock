@@ -1,0 +1,48 @@
+body{
+	background-color: blueviolet;
+}
+#clockContainer{
+	position: relative;
+	margin: auto;
+	height: 40vw;
+	width: 40vw;
+	background: url(https://www.media4math.com/sites/default/files/library_asset/images/MathClipArt--Clock-Face.jpg)no-repeat;
+	background-size: 100%;
+}
+#hour,
+#minute,
+#second {
+  position: absolute;
+  transform-origin: bottom;
+  border-radius: 20px;
+}
+#hour {
+  width: 1.8%;
+  height: 25%;
+  top: 24%;
+  left: 48.85%;
+  background: black;
+}
+
+#minute {
+  width: 1.6%;
+  height: 30%;
+  top: 18.2%;
+  left: 49.1%;
+  background: black;
+}
+
+#second {
+  width: 1%;
+  height: 35%;
+  top: 14.5%;
+  left: 49.25%;
+  background: black;
+}
+#alarmTime {
+  font-size: 28px;
+}
+
+#alarmButton {
+  font-size: 28px;
+}
